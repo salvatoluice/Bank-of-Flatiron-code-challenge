@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AccountContainer from "./AccountContainer";
 
 function App() {
 	const [transactions, setTransactions] = React.useState([]);
 
-	React.useEffect(() => {
+	useEffect(() => {
 		fetchTransactions();
 	}, []);
 
@@ -53,7 +53,6 @@ function App() {
 				handleDeleteTransaction={handleDeleteTransaction}
 			/>
 		</div>
-		// <div>ddd</div>
 	);
 }
 

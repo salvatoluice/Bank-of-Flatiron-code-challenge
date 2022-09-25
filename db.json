@@ -41,6 +41,13 @@
       "category": "Food",
       "amount": "1000",
       "id": 13
+    },
+    {
+      "date": "2022-09-26",
+      "description": "Birthday for Luiz",
+      "category": "Gift",
+      "amount": "200",
+      "id": 14
     }
   ]
 }
